@@ -44,6 +44,7 @@ A unique feature of this project is the **optimization for Natural Language Proc
 **Yasin Saglamer**
 * Statistics Student @ Yildiz Technical University (YTÜ)
 * Business Intelligence Developer Intern @ Boost Intelligent Analytics
+
 ├── data_generation/    # Python scripts for synthetic dataset creation
 ├── notebooks/          # Fabric/PySpark notebooks for ETL processing
 ├── sql_scripts/        # Gold layer views and DDL scripts

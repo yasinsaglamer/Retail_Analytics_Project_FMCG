@@ -1,13 +1,13 @@
-# 🚀 FMCG Retail Intelligence: AI-Ready Data Product on Microsoft Fabric
+#  FMCG Retail Intelligence: AI-Ready Data Product on Microsoft Fabric
 
-## 📌 Executive Summary
+##  Executive Summary
 This project demonstrates a full-scale Data Engineering and BI implementation within the **Microsoft Fabric** ecosystem. Starting from a raw FMCG dataset (generated via Gemini for realistic simulation), I engineered a high-performance **Star Schema** designed specifically for **Generative AI (LLM) consumption**.
 
 **The Mission:** To enable non-technical sales teams to interact with complex retail data using **Natural Language (AI Chatbots)**, reducing the time-to-insight from hours to seconds.
 
 ---
 
-## 🏗️ Technical Architecture (The Medallion Journey)
+##  Technical Architecture (The Medallion Journey)
 The project follows the Medallion Architecture to ensure data quality and AI readiness:
 
 1. **Bronze (Raw):** Direct ingestion of retail datasets into the Fabric Lakehouse in Delta format.
@@ -18,7 +18,7 @@ The project follows the Medallion Architecture to ensure data quality and AI rea
 
 ---
 
-## 🤖 AI-Ready Semantic Modeling
+##  AI-Ready Semantic Modeling
 A unique feature of this project is the **optimization for Natural Language Processing (NLP)**. To ensure a Chatbot can accurately provide insights:
 * **Star Schema Implementation:** Minimized table joins to prevent AI "hallucinations" during querying.
 * **Semantic Descriptions:** Every column in the Gold layer is enriched with metadata, helping AI agents understand business context (e.g., defining "OOS" as Out-of-Stock).
@@ -26,7 +26,7 @@ A unique feature of this project is the **optimization for Natural Language Proc
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 * **Platform:** Microsoft Fabric (OneLake, Lakehouse, Data Factory)
 * **Engineering:** PySpark, Spark SQL
 * **Modeling:** Power BI Semantic Models (Star Schema)
@@ -34,13 +34,13 @@ A unique feature of this project is the **optimization for Natural Language Proc
 
 ---
 
-## 📊 Business Impact
+##  Business Impact
 * **Conversational Analytics:** Sales managers can ask, *"Which category had the highest stock-out rate in Istanbul last weekend?"* and get an instant answer.
 * **Proactive Inventory:** Automated detection of inventory gaps across 5,000+ SKU/Store combinations.
 
 ---
 
-## 👤 Author
+##  Author
 **Yasin Saglamer**
 * Statistics Student @ Yildiz Technical University (YTÜ)
 * Business Intelligence Developer Intern @ Boost Intelligent Analytics
